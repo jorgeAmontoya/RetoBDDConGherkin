@@ -7,8 +7,8 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 
- features = "C:/Users/HEYLER/Desktop/training QA/Automatizacion/RetoBDDConGherkin/PrestamosDeLibreInversion/src/test/resources/feactures/SolicitudPrestamo.feature"
+ features = "src/test/resources/features/SolicitudPrestamo.feature"
          , glue = {"stepdefinitions"}
-         , plugin = {"pretty", "html:target/cucumber/reporteSolicitudPrestamo.html", "json:target/SolicitudPrestamoRunner.json"})
+         , plugin = {"pretty", "html:target/cucumber/ReporteSolicitudPrestamo.html", "json:target/SolicitudPrestamoRunner.json"})
 public class SolicitudPrestamoRunner {
 }
